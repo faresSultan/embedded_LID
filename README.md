@@ -2,4 +2,3 @@
 Learn in depth Embedded diploma
 
 // fares sultan was here :)
-mknuibgyubvyh
