@@ -1,5 +1,7 @@
 # include<stdio.h>
 
+int num_solve(fS a, float b);
+
 int main()
 {
 				/*EX1*/
@@ -223,6 +225,32 @@ int main()
 //
 //		printf("The result is : %f\n",res);
 //		fflush(stdout);
+
+
+
+
+
+		int flag =0;
+	    int x=0, y=-1;
+	    int Y=0;
+	    int h = 1;
+	    int n =x;
+	    int limit;
+	    for (n=x; n<=limit ; n+=h )
+	    {
+	    	if (areEqual(0.2, n))
+	    	{
+	    		flag =1;
+	    	}
+	        Y = y +h*(3*x+y);
+	        y=Y;
+	        x+=h;
+	        if(flag==1)
+	        {
+	        	break;
+	        }
+	    }
+	    printf("%f",Y);
 
 	return 0;
 }
