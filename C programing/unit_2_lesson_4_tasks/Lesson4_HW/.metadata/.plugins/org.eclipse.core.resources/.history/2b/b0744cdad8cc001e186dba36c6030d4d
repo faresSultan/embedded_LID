@@ -1,0 +1,65 @@
+/*
+ * main.c
+ *
+ *  Created on: Feb 16, 2024
+ *      Author: Fares Sultan
+ */
+
+
+#include<stdio.h>
+
+
+
+
+
+int main()
+{
+
+	char arr[5] = {'H','e','l','l','o'};
+
+	return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*void func(int x, char arr[])
+{
+	x++;
+	arr[0]--;
+
+}
+
+
+int main()
+{
+
+	int x =5;
+	char str[5] = "Good";
+
+	printf("The values before modification are %d %s\n", x,str);
+	fflush(stdout);
+	func(x, str);
+	printf("The values after modification are %d %s\n", x,str);
+
+
+
+
+
+
+
+	return 0;
+}*/

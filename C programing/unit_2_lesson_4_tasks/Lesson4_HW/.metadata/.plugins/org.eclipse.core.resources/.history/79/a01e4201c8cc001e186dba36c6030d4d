@@ -1,0 +1,31 @@
+/*
+ * main.c
+ *
+ *  Created on: Feb 16, 2024
+ *      Author: Fares Sultan
+ */
+
+
+#include<stdio.h>
+
+void func(int x, char arr[])
+{
+	x++;
+	arr[0]--;
+
+}
+
+
+int main()
+{
+
+
+
+
+
+
+
+
+
+	return 0;
+}

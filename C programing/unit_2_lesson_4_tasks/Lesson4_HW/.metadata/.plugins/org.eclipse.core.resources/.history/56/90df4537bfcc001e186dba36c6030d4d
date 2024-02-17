@@ -1,0 +1,66 @@
+/*
+ * main.c
+ *
+ *  Created on: Feb 16, 2024
+ *      Author: Fares Sultan
+ */
+#include<stdio.h>
+
+int main()
+{
+
+	int a[2][2],b[2][2];
+	int i,j,sum=0;
+
+	printf("Enter the Elements of the first Matrix\n\n");
+	fflush(stdout);
+	for (i=0;i<2;i++)
+	{
+		for(j=0;j<2;j++)
+		{
+			printf("\nEnter the element a[%d][%d]: ",i+1,j+1);
+			fflush(stdout);fflush(stdin);
+			scanf("%d",&a[i][j]);
+		}
+
+	}
+
+	printf("\nEnter the Elements of the second Matrix\n\n");
+	fflush(stdout);
+	for (i=0;i<2;i++)
+		{
+			for(j=0;j<2;j++)
+			{
+				printf("\nEnter the element b[%d][%d]: ",i+1,j+1);
+				fflush(stdout);fflush(stdin);
+				scanf(" %d",&b[i][j]);
+			}
+
+		}
+
+
+
+	for (i=0;i<2;i++)
+	{
+				for(j=0;j<2;j++)
+				{
+					sum += a[i][j] + b[i][j];
+				}
+
+	}
+	printf("\nThe Sum of Matrix is: %d",sum);
+
+
+
+
+
+
+
+
+
+
+
+
+return 0;
+}
+
