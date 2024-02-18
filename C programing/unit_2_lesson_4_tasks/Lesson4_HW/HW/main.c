@@ -5,6 +5,7 @@
  *      Author: Fares Sultan
  */
 #include<stdio.h>
+#include<string.h>
 
 int main()
 {
@@ -13,8 +14,8 @@ int main()
 return 0;
 }
 
-
-	/*EX1*/
+/*-----------------------------------------------------*/
+/*-------------------------Ex1-------------------------*/
 /*float a[2][2],b[2][2],sum[2][2];
 	int i,j;
 
@@ -70,9 +71,8 @@ return 0;
 
 */
 
-/*-----------------------------------------------*/
-
-		/*EX2*/
+/*-----------------------------------------------------*/
+/*-------------------------Ex2-------------------------*/
 
 /*
 	float arr[100]={0},avg=0;
@@ -96,9 +96,8 @@ return 0;
 
 */
 
-/*-----------------------------------------------*/
-
-				/*-------EX3--------*/
+/*-----------------------------------------------------*/
+/*-------------------------Ex3-------------------------*/
 
 /*
 int a[20][20]={0},transpose[20][20]={0};
@@ -156,8 +155,8 @@ int a[20][20]={0},transpose[20][20]={0};
 		}
 
 */
-/*-----------------------------------------------*/
-            /*---------Ex4-----------*/
+/*-----------------------------------------------------*/
+/*-------------------------Ex4-------------------------*/
 /*int arr[20]={0},size=0,i,number,loc;
 
 	printf("Eneter the no. of elements: ");
@@ -192,5 +191,110 @@ int a[20][20]={0},transpose[20][20]={0};
 			fflush(stdout);
 
 	}*/
+/*-----------------------------------------------------*/
+/*-------------------------Ex5-------------------------*/
+/*
+int arr[20]={0},size=0,i,number,flag=0;
 
+		printf("Eneter the no. of elements: ");
+		fflush(stdout);
+		scanf("%d", &size);
+		fflush(stdin);
+		printf("\nEneter the elements: ");
+		fflush(stdout);
+
+		for(i=0;i<size;i++)
+		{
+			scanf("%d",&arr[i]);
+			fflush(stdin);
+
+		}
+
+		printf("\nEneter the element to be searched: ");
+		fflush(stdout);
+		scanf("%d", &number);
+
+		for (i=0;i<size;i++)
+		{
+			if(arr[i] == number)
+			{
+				printf("The number is found at location %d",(i+1));
+				flag =1;
+				break;
+			}
+
+		}
+
+		if(flag == 0)
+		{
+		printf("Element not found");
+		fflush(stdout);
+		}
+*/
+/*-----------------------------------------------------*/
+/*------------------------Ex1- strings-----------------*/
+
+/*
+char str[100]={0},ch,i,counter=0;
+	printf("Enter a string: ");
+	fflush(stdout);
+	scanf("%[^\n]s",str);
+	fflush(stdin);
+	printf("Enter a letter to find frequency: ");
+	fflush(stdout);
+	scanf("%c",&ch);
+	fflush(stdin);
+
+	for(i=0;str[i]!=0;i++)
+	{
+		if(str[i] == ch)
+		{
+			counter++;
+		}
+		else
+		{
+			continue;
+		}
+	}
+	printf("The frequency of '%c' is: %d",ch,counter);
+	fflush(stdout);
+*/
+
+/*-----------------------------------------------------*/
+/*------------------------Ex2- strings-----------------*/
+
+/*
+ char str[100]={0},i,counter=0;
+		printf("Enter a string: ");
+		fflush(stdout);
+		scanf("%[^\n]s",str);
+		fflush(stdin);
+
+		for(i=0;str[i]!=0;i++)
+		{
+				counter++;
+		}
+		printf("The length of string is: %d",counter);
+		fflush(stdout);
+
+*/
+
+/*-----------------------------------------------------*/
+/*------------------------Ex3- strings-----------------*/
+
+/*
+char str[100]={0},i,j=0,rev_str[100]={0};
+			printf("Enter a string: ");
+			fflush(stdout);
+			scanf("%[^\n]s",str);
+			fflush(stdin);
+
+			for (i= strlen(str)-1;i>=0;i--)
+			{
+				rev_str[j] = str[i];
+				j++;
+			}
+			printf("The reverse string is: %s",rev_str);
+			fflush(stdout);
+*/
 
