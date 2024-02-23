@@ -4,15 +4,15 @@
  *  Created on: Feb 16, 2024
  *      Author: Fares Sultan
  */
-#include<stdio.h>
-#include<string.h>
+# include<stdio.h>
+#include <string.h>
 
-int main()
+int main ()
 {
 
-
-return 0;
+	return 0;
 }
+
 
 /*-----------------------------------------------------*/
 /*-------------------------Ex1-------------------------*/

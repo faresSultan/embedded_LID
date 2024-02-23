@@ -1,5 +1,48 @@
-21:50:01 **** Incremental Build of configuration Debug for project HW ****
+22:04:41 **** Incremental Build of configuration Debug for project HW ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
 gcc -o HW.exe main.o 
+Info: Nothing to build for HW
+22:05:26 **** Incremental Build of configuration Debug for project HW ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:12:8: warning: unused variable 'y' [-Wunused-variable]
+  int x,y;
+        ^
+..\main.c:12:6: warning: unused variable 'x' [-Wunused-variable]
+  int x,y;
+      ^
+gcc -o HW.exe main.o 
+Info: Nothing to build for HW
+Info: Nothing to build for HW
+22:40:25 **** Incremental Build of configuration Debug for project HW ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:13:8: warning: unused variable 'y' [-Wunused-variable]
+  int x,y;
+        ^
+..\main.c:13:6: warning: unused variable 'x' [-Wunused-variable]
+  int x,y;
+      ^
+gcc -o HW.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file HW.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:40:52 **** Incremental Build of configuration Debug for project HW ****
+Info: Internal Builder is used for build
+gcc -o HW.exe main.o 
+Info: Nothing to build for HW
+22:44:38 **** Incremental Build of configuration Debug for project HW ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:13:8: warning: unused variable 'y' [-Wunused-variable]
+  int x,y;
+        ^
+..\main.c:13:6: warning: unused variable 'x' [-Wunused-variable]
+  int x,y;
+      ^
+gcc -o HW.exe main.o 
+Info: Nothing to build for HW
 Info: Nothing to build for HW
